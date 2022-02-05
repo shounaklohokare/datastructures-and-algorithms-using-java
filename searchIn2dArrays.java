@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class binarySearch2dArray {
 	
 	public static void main(String[] args) {
-		
+		// The below matrix is sorted  by row wise and column wise but the matrix is not completely sorted, i.e a[0][-1] is not necessarily less than a[1][0] (where -1 is last element of array)
 		int[][] arr = {
 				{10, 20, 30, 40},
 				{15, 25, 35, 45}, 
