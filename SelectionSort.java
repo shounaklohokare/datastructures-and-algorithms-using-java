@@ -1,5 +1,3 @@
-package basicJavaPrograms;
-
 import java.util.Arrays;
 
 public class SelectionSort {
@@ -16,7 +14,7 @@ public class SelectionSort {
     static void selectionSort(int[] arr) {
 
         for (int i = 0; i < arr.length; i++) { // i will change from range 1 to length-1
-            int last = arr.length - i - 1; // each time last will point to last element then penultimate element
+            int last = arr.length - i - 1; // 'last' will point to last element then penultimate element
                                            // followed by pre-penultimate element and so on with the help of i
             int max = findMax(arr, last); // will find value of the maximum element from 0 to last element
             swap(arr, last, max); // will swap value the last element and max element
